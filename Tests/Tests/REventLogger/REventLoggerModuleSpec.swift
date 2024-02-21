@@ -75,7 +75,7 @@ class REventLoggerModuleSpec: QuickSpec {
                         done()
                     }
                 }
-                it("will send all the events in storage and delete all the stored events if the max capacity is reached") {
+                it("will send all     the events in storage and delete all the stored events if the max capacity is reached") {
                     waitUntil { done in
                         mockEventStorage.insertOrUpdateEvent("event1", event: REventLoggerMockData.REventModel)
                         mockEventStorage.insertOrUpdateEvent("event2", event: REventLoggerMockData.REventModel2)
