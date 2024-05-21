@@ -1,6 +1,6 @@
 # **Changelog**
 
-## Unreleased
+#### 4.2.0 (2024-05-21)
 - Features:
     - Retrieve Meta-data for Event Logger (SDKCF-6846)
     - Event Logger Public API & Manager Class (SDKCF-6845)
@@ -12,13 +12,11 @@
     - Integrate Sample App for REvent Logger feature (SDKCF-6856)
     - Add app lifecycle listener (SDKCF-6850) 
     - Update fetching App name logic (SDKCF-6915)
-    
 - Improve:
     - Refactor event-logger code (SDKCF-6864) 
     - Add real time error message in the default error (SDKCF-6856)
     - Change identifier to Real Time device Name (SDKCF-6880)
     - Refactor retry mechanism (SDKCF-6920)
-
 - Fixes:
     - Fix crash on sample app on logging event (SDKCF-6882)
 
